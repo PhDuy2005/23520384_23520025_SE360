@@ -49,7 +49,7 @@ Dự án **UIT-GO** (Ride Sharing Platform) bao gồm 3 microservices chính:
 ## 📝 Báo cáo thực hành
 
 ### Phạm Trần Khánh Duy (23520384)
-- [Báo cáo thực hành - Link sẽ cập nhật]
+- [Báo cáo thực hành](./SE360_LabReport_PhamTranKhanhDuy_23520384.pdf)
 
 ### Phạm Hữu An (23520025)
 - [Báo cáo thực hành - Link sẽ cập nhật]
@@ -59,7 +59,6 @@ Dự án **UIT-GO** (Ride Sharing Platform) bao gồm 3 microservices chính:
 ## 📚 Tài liệu tham khảo
 
 - [ARCHITECTURE.md](./ARCHITECTURE.md) - Tài liệu kiến trúc hệ thống
-- [Đường dẫn tài liệu khác nếu có]
 
 ---
 
@@ -82,8 +81,8 @@ Dự án **UIT-GO** (Ride Sharing Platform) bao gồm 3 microservices chính:
 
 ## 📞 Liên hệ
 
-- **Phạm Trần Khánh Duy**: [Email/Contact - optional]
-- **Phạm Hữu An**: [Email/Contact - optional]
+- **Phạm Trần Khánh Duy**: 23520384@gm.uit.edu.vn
+- **Phạm Hữu An**: 23520025@gm.uit.edu.vn
 
 ---
 
