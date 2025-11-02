@@ -22,16 +22,27 @@ Tham khảo file [ARCHITECTURE.md](./ARCHITECTURE.md) để xem chi tiết về 
 
 ## 🚀 Microservices
 
-Dự án bao gồm 3 microservices chính:
+Dự án **UIT-GO** (Ride Sharing Platform) bao gồm 3 microservices chính:
 
-1. **[Service 1]** - _[Mô tả ngắn]_
-   - Repository: `[Đường dẫn sẽ cập nhật]`
+1. **User Service** (Port: 8080) - _Quản lý người dùng và xác thực_
+   - Đăng ký, đăng nhập và quản lý người dùng
+   - JWT Authentication và phân quyền
+   - Database: `userdb` (MySQL)
+   - Repository: [SE360-User-Service](https://github.com/PhDuy2005/SE360-User-Service)
    
-2. **[Service 2]** - _[Mô tả ngắn]_
-   - Repository: `[Đường dẫn sẽ cập nhật]`
+2. **Driver Service** (Port: 8081) - _Quản lý tài xế và phương tiện_
+   - Quản lý thông tin tài xế, giấy phép lái xe
+   - Cập nhật vị trí và trạng thái (ONLINE/OFFLINE/ON_TRIP)
+   - Quản lý thông tin phương tiện và đánh giá
+   - Database: `driverdb` (MySQL)
+   - Repository: [Microservice-for-Driver](https://github.com/PhDuy2005/Microservice-for-Driver)
    
-3. **[Service 3]** - _[Mô tả ngắn]_
-   - Repository: `[Đường dẫn sẽ cập nhật]`
+3. **Trip Service** (Port: 8082) - _Quản lý chuyến đi_
+   - Tạo và quản lý chuyến đi
+   - Ghép nối hành khách với tài xế
+   - Theo dõi trạng thái chuyến đi (REQUESTED/ACCEPTED/IN_PROGRESS/COMPLETED/CANCELLED)
+   - Database: `tripdb` (MySQL)
+   - Repository: [Microservice-for-Trip](https://github.com/PhDuy2005/Microservice-for-Trip)
 
 ---
 
@@ -54,7 +65,18 @@ Dự án bao gồm 3 microservices chính:
 
 ## 🛠️ Công nghệ sử dụng
 
-_[Liệt kê các công nghệ, framework, cloud services được sử dụng]_
+### Backend & Framework
+- **Spring Boot** - Java framework cho phát triển microservices
+
+### Cloud Infrastructure
+- **AWS EC2** - Máy chủ ảo để deploy các microservices
+- **AWS RDS** - Dịch vụ cơ sở dữ liệu quan hệ trên cloud
+
+### Database
+- **MySQL** - Hệ quản trị cơ sở dữ liệu quan hệ
+
+### DevOps & Containerization
+- **Docker** - Containerization platform để đóng gói và triển khai ứng dụng
 
 ---
 
